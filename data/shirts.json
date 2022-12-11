@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "product_name": "White business shirt",
+        "category": "Dress Shirts",
+        "category_id": 2,
+        "Price": 2000,
+        "description": "Our signature twill with great luster and comfort is an essential item in every man’s wardrobe. This classic piece is ideal for any occasion. Made to your measurements.",
+        "Image": "https://i.ibb.co/mXGdtYc/Dress-Shirt1.webp"
+    },
+    {
+        "id": 2,
+        "product_name": "Navy striped business shirt",
+        "category": "Dress Shirts",
+        "category_id": 2,
+        "Price": 2000,
+        "description": "Rames shirt in a fine navy blue-striped twill, which gives a luxurious feeling. Rames shirt is both a superior and stylish choice every day of the week! Made to your measurements.",
+        "Image": "https://i.ibb.co/86mBsHy/Dress-Shirt2.webp"
+    },
+    {
+        "id": 3,
+        "product_name": "Black luxurious business shirt",
+        "category": "Dress Shirts",
+        "category_id": 2,
+        "Price": 2000,
+        "description": "Business shirt in black golf ball dobby weave, which refers to the fabric structure resembling the structure on a golf ball. With its exclusive luster and smooth surface this is a dress shirt that simply has to be experienced. Make Montclair your next stylish business shirt or let it be the focus point of any outfit, any day. This is a dress shirt guaranteed to be a new favorite. Made to your measurements.",
+        "Image": "https://i.ibb.co/M8v0J2B/Dress-Shirt3.webp"
+    },
+    {
+        "id": 4,
+        "product_name": "Burgundy business shirt",
+        "category": "Dress Shirts",
+        "category_id": 2,
+        "Price": 2000,
+        "description": "A wonderful satin cotton shirt in burgundy. Satin weave that is quite opaque, drapes very well and has a subtle luster that makes it look and feel fantastic. Cut away superior collar and matching burgundy buttons to give an exclusive look. Easy iron. Made to your measurements.",
+        "Image": "https://i.ibb.co/r5YJtMd/Dress-Shirt4.webp"
+    },
+    {
+        "id": 5,
+        "product_name": "Gray checkered dress shirt",
+        "category": "Dress Shirts",
+        "category_id": 2,
+        "Price": 2000,
+        "description": "Casual plaid shirt in gray and navy. A light twill shirt for a more relaxed occasion. The brushed finish makes it soft and comfortable to wear. Pair it with navy chinos for a casual but well dressed look. Made to your measurements.",
+        "Image": "https://i.ibb.co/2qZZQgP/Dress-Shirt5.webp"
+    }
+]

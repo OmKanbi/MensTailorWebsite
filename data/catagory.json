@@ -1,0 +1,23 @@
+[
+        {
+            "id":1,
+            "catagory":"Suits"
+        },
+        {
+            "id":2,
+            "catagory":"Dress Shirts"
+        },
+        {
+            "id":3,
+            "catagory":"Chinos"
+        },
+        {
+            "id":4,
+            "catagory":"Polo Shirts"
+        },
+        {
+            "id":5,
+            "catagory":"T-Shirts"
+        }
+    ]
+  

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co/D1vtGv4/favicon.png">
+    <title>Tailor Bird</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+
+  <!----------------- Modal ----------------->
+
+    <div id="coupon-content">
+      <div id="coupon"><button type="button" class="btn-close" onclick="closecoupon()" aria-label="Close"></button>
+        <img src="./assets/sale.jpg" alt="sale">
+      </div>
+    </div>
+
+    <!----------------- Navigation Bar ----------------->
+    
+    <header>
+        <nav class="navbar navbar-expand-xl" id="navigation">
+            <div class="container-fluid" id="fixed-nav">
+                <button class="navbar-toggler" type="button" id="Toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img id="navbar-icon" src="https://i.ibb.co/djPPSm2/logo-light.png" width="100" height="auto" /></a>   
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header"> 
+                  <button type="button" id="Toggler-close" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>  
+                <div class="offcanvas-body" id="OffCanvas">
+                    <div class="search-div">
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" id="search" aria-label="Search">
+                        <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass nav-icon"></i></button>
+                        </form>
+                      </div>
+                    <ul class="navbar-nav" id="Navlist">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Collection
+                        </a>
+                        <ul class="dropdown-menu" id="dropdown-list">
+                          <li><a class="dropdown-item" href="#">Suits</a></li>
+                          <li><a class="dropdown-item" href="#">Dress-Shirts</a></li>
+                          <li><a class="dropdown-item" href="#">Chinos</a></li>
+                          <li><a class="dropdown-item" href="#">Polo Shirts</a></li>
+                          <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Measurement Guide</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                      <li class="nav-item" id="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span id="out"></span>
+                        <span id="weather"></span>
+                      </li>
+                    </ul>
+                </div>            
+              </div>
+              <div class="d-flex">
+                <i class="fa-regular fa-user nav-icon"></i>
+                <i class="fa-regular fa-heart nav-icon"></i>
+                <i class="fa-solid fa-cart-shopping nav-icon"></i>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!----------------- banner ----------------->
+
+    <div class="banner1 d-flex justify-content-center align-items-center flex-wrap">
+
+        <div class="banner2-text banner1-text"><i class="fa-solid fa-check"></i> Made-To-Measure</div>
+
+        <div class="banner1-sub d-flex justify-content-center">
+            <div class="banner2-text banner1-text"><i class="fa-solid fa-check"></i> Fast Delivery</div>
+            <div class="banner2-text banner1-text"><i class="fa-solid fa-check"></i> Perfect Fit Gurantee</div>
+        </div>
+
+    </div>
+
+    <!----------------- Hero ----------------->
+
+    <div class="hero container-fluid">
+        <h1>Welcome to Tailor Bird</h1>
+        Discover true personalization.
+    </div>
+
+    <!----------------- How it works ----------------->
+
+    <div class="d-flex hiw-wrapper align-items-center">
+
+        <div class="hiw-text-wrapper">
+            <p>It’s all about the</p>
+            <p>Measurements</p>
+            <p>It’s time to leave unflattering off-the-rack sizes behind and join a customized future. It’s time you to start wearing clothes made only for you.</p>
+            <button>Measurement Guide</button>
+        </div>
+
+        <div class="hiw-text-wrapper2">
+          <div class="d-flex align-items-center"><img src="https://i.ibb.co/WVqQHbP/hiw1.png" alt="how it works"><p>Browse from our ready-made collection.</p></div>
+          <div class="d-flex align-items-center"><img src="https://i.ibb.co/XLG7ghk/hiw2.png" alt="how it works"><p>Create your custom size in no-time using our quick and easy Measurement guide.</p></div>
+          <div class="d-flex align-items-center"><img src="https://i.ibb.co/tpWVn1z/hiw3.png" alt="how it works"><p>Should your first garment not fit as pictured we'll replace it free of charge.</p></div>
+        </div>
+
+    </div>
+
+    <!----------------- catagories ----------------->
+
+    <div class="Section-Title">
+        <p>Catagories</p>
+    </div>
+
+    <div class="d-flex flex-wrap justify-content-center">
+
+        <a href="#">
+          <div class="catagories">
+            <img src="https://i.ibb.co/pR4SDQJ/suits.webp" class="catagories-img">
+            <div class="catagories-title"><h6>Custom-tailored</h6><h4>Suits</h4></div>
+        </div>
+        </a>
+
+        <a href="#">
+          <div class="catagories">
+            <img src="https://i.ibb.co/NZJzwRN/shirts.webp" class="catagories-img">
+            <div class="catagories-title"><h6>Custom-tailored</h6><h4>Dress Shirts</h4></div>
+        </div>
+        </a>
+
+        <a href="#">
+          <div class="catagories">
+            <img src="https://i.ibb.co/zxBXYjk/chinos.webp" class="catagories-img">
+            <div class="catagories-title"><h6>Custom-tailored</h6><h4>Chinos</h4></div>
+        </div>
+        </a>
+
+        <a href="#">
+          <div class="catagories">
+            <img src="https://i.ibb.co/tHZ8Q4j/polo.webp" class="catagories-img">
+            <div class="catagories-title"><h6>Custom-tailored</h6><h4>Polo Shirts</h4></div>
+        </div>
+        </a>
+
+        <a href="#">
+          <div class="catagories">
+            <img src="https://i.ibb.co/VQb4sB8/tshirt.webp" class="catagories-img">
+            <div class="catagories-title"><h6>Custom-tailored</h6><h4>T-Shirts</h4></div>
+          </div>
+        </a>
+
+    </div>     
+
+
+    <!--banner2-->
+
+    <div class="banner2 d-flex flex-wrap justify-content-center">
+
+        <div class="d-flex flex-wrap">
+          
+            <div class="banner2-content d-flex">
+                <div><img src="https://i.ibb.co/Y8pRfNW/skilled.png" ></div>
+                <div>
+                    <div class="banner2-text">Skilled Tailors</div>
+                    <div class="banner2-text banner2-text2">India's Best Master Tailors</div>
+                </div>
+            </div>
+
+            <div class="banner2-content d-flex">
+                <div><img src="https://i.ibb.co/6Zh3sYW/measuretape.png" ></div>
+                <div>
+                    <div class="banner2-text">Measurement</div>
+                    <div class="banner2-text banner2-text2">Accurate Measurements</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d-flex flex-wrap">
+
+            <div class="banner2-content d-flex">
+                <div><img src="https://i.ibb.co/hWt6CkB/quality.png" ></div>
+                <div>
+                    <div class="banner2-text">Quality Materials</div>
+                    <div class="banner2-text banner2-text2">European Materials</div>
+                </div>
+            </div>
+
+            <div class="banner2-content d-flex">
+                <div><img src="https://i.ibb.co/KFw4VJy/bestfit.png" ></div>
+                <div>
+                    <div class="banner2-text">Best Fit</div>
+                    <div class="banner2-text banner2-text2">100% Satisfactory Fit</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--footer-->
+    <footer>
+        <div class="footer-container">
+
+                <div class="footer-content newsletter">
+                    <div>Latest News & Exciting Offers</div>
+                    <div>
+                        <button class="btn-newsletter">Subscribe</button>
+                    </div>
+                </div>
+                <div class="accordion accordion-flush" id="Accordian">
+
+                    <div class="accordion-item btn-footer" id="Accordian-wrapper1">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button d-block text-uppercase text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Useful Links
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse Accordian-content" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#">Shipping Policy</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Return & Refund Policy</a></li>
+                                <li><a href="#">Terms & Services</a></li>
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item btn-footer" id="Accordian-wrapper2">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button d-block text-uppercase text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Contact Us
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse Accordian-content" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            We are here to help you. Reach us out on call or email.<br/>
+                            +91 XXXXXXXXXX (Mon-Sat 11am to 7pm)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+        </div>
+        <div class="copyright text-center">
+            Tailor Bird &copy; <span>2022 BY</span> Om Kanbi
+        </div>
+    </footer>
+
+    <div class="mode-btn d-flex justify-content-center align-items-center" onclick="darkmode()">
+      <i class="fa-solid fa-moon"></i>
+    </div>
+
+    <script src="./script/script.js"></script>
+<script>
+   window.onload = loadcoupon(); 
+   window.omload = geolocation();
+</script>
+
+</body>
+</html>

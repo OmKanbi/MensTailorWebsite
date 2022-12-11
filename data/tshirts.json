@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "product_name": "Navy T-Shirt",
+        "category": "T-Shirts",
+        "category_id": 5,
+        "Price": 2000,
+        "description": "Parker Navy is a medium weight single jersey knit with an extra soft surface for the ideal comfortable T-Shirt. The natural stretch given by the knitted technique keeps the T-Shirt in shape without compromising with the comfort. All our fabrics are pre washed to remove shrinkage and potential twisting before we cut your T-Shirt. Made to your measurements.",
+        "Image": "https://i.ibb.co/DgP2pjd/tshirt1.webp"
+    },
+    {
+        "id": 2,
+        "product_name": "Mauve T-Shirt",
+        "category": "T-Shirts",
+        "category_id": 5,
+        "Price": 2000,
+        "description": "Holland mauve is a soft and smooth single jersey with a slightly textured in 100% pima cotton. It's comfortable and stretchy, ready to wear under your favorite shirt or just as it is! The mauve color belongs to our limited edition selection. Made to your measurements.",
+        "Image": "https://i.ibb.co/k0dZtHb/tshirt2.webp"
+    },
+    {
+        "id": 3,
+        "product_name": "Summer blue T-Shirt",
+        "category": "T-Shirts",
+        "category_id": 5,
+        "Price": 2000,
+        "description": "Holland mauve is a soft and smooth single jersey with a slightly textured in 100% pima cotton. It's comfortable and stretchy, ready to wear under your favorite shirt or just as it is! The mauve color belongs to our limited edition selection. Made to your measurements.",
+        "Image": "https://i.ibb.co/VmRYNsb/tshirt3.webp"
+    },
+    {
+        "id": 4,
+        "product_name": "Soft pink T-Shirt",
+        "category": "T-Shirts",
+        "category_id": 5,
+        "Price": 2000,
+        "description": "Parker soft pink is a medium weight single jersey knit with an extra soft surface for the ideal comfortable t-shirt. The natural stretch given by the knitted technique keeps the t-shirt in shape without compromising with the comfort. All our fabrics are pre washed to remove shrinkage and potential twisting before we cut your t-shirt. Made to your measurements.",
+        "Image": "https://i.ibb.co/X7svQb8/tshirt4.webp"
+    },
+    {
+        "id": 5,
+        "product_name": "Charcoal t-shirt",
+        "category": "T-Shirts",
+        "category_id": 5,
+        "Price": 2000,
+        "description": "Parker Charcoal is a medium weight single jersey knit with an extra soft surface for the ideal comfortable t-shirt. The natural stretch given by the knitted technique keeps the t-shirt in shape without compromising with the comfort. All our fabrics are pre washed to remove shrinkage and potential twisting before we cut your t-shirt. Made to your measurements.",
+        "Image": "https://i.ibb.co/5hYcy8g/tshirt5.webp"
+    }
+]

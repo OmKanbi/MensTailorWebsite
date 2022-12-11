@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "product_name": "Gray blazer with glen check pattern",
+        "category": "Suits",
+        "category_id": 1,
+        "Price": 2000,
+        "description": "Gray blazer in 100% wool with glen check pattern. Designed with a peak lapel, single vent at back and front pockets. Style it with black or gray suit trousers for a sharp and well dressed look. Made to your measurements",
+        "Image": "https://i.ibb.co/MfCCT7q/suit1.webp"
+    },
+    {
+        "id": 2,
+        "product_name": "Brown suit with double breasted suit jacket",
+        "category": "Suits",
+        "category_id": 1,
+        "Price": 2000,
+        "description": "Two-piece suit with double breasted suit jacket. A classic brown color with thin red and blue lines to create a discrete and interesting check pattern in this 100% wool twill.The double breasted jacket has a peak lapel, single vent at back and front pockets with both pocket lids and a ticket pocket. The suit trousers are designed with a hidden waist buttoning, straight pockets at front and one pocket at back. Wear this outfit with a white business shirt for the perfect look. Made to your measurements.",
+        "Image": "https://i.ibb.co/gZm5Ghc/suit2.webp"
+    },
+    {
+        "id": 3,
+        "product_name": "Three-piece classic suit in black fine twill with stretch",
+        "category": "Suits",
+        "category_id": 1,
+        "Price": 2000,
+        "description": "Three-piece classic suit in black fine twill with stretch. The perfect suit for both formal and business events. The jacket has a classic standard lapel, double vent at back and front pockets with pocket lids. The suit trousers are designed with a hidden waist buttoning, straight pockets at front and two pockets at back. For a high end look wear the waistcoat under the suit jacket and style it with a tie or bowtie. Made to your measurements.",
+        "Image": "https://i.ibb.co/LS3YSwM/suit3.webp"
+    },
+    {
+        "id": 4,
+        "product_name": "Heavy wool blazer in beige melange herringbone weave",
+        "category": "Suits",
+        "category_id": 1,
+        "Price": 2000,
+        "description": "Heavy wool blazer in beige melange herringbone weave. Designed with standard lapel, single vent at back and front pockets with pocket lids. Wear it with black suit trousers or chinos for a well dressed look. Made to your measurements.",
+        "Image": "https://i.ibb.co/8Pjyjhw/suit4.webp"
+    },
+    {
+        "id": 5,
+        "product_name": "Two-piece classic tuxedo in black fine twill",
+        "category": "Suits",
+        "category_id": 1,
+        "Price": 2000,
+        "description": "Two-piece classic tuxedo in black fine twill for the formal event. The jacket has a classic shawl lapel in satin and satin dressed buttons and pocket frames. The tuxedo trousers are designed with a hidden waist buttoning, straight pockets at front and one pockets at back. The signature satin stripe is sewn along the outside of the pants. Wear it with a tuxedo shirt and a black bowtie. Made to your measurements.",
+        "Image": "https://i.ibb.co/DCNwNxF/suit5.webp"
+    }
+]

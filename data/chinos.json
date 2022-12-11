@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "product_name": "Beige chinos",
+        "category": "Chinos",
+        "category_id": 3,
+        "Price": 2000,
+        "description": "Beige chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, straight side pockets and one back vent pocket. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/0rMgkxp/chinos1.webp"
+    },
+    {
+        "id": 2,
+        "product_name": "Navy chinos",
+        "category": "Chinos",
+        "category_id": 3,
+        "Price": 2000,
+        "description": "Navy chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, beveled side pockets and back vent pockets with loop and button. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/m9WWhT5/chinos2.webp"
+    },
+    {
+        "id": 3,
+        "product_name": "Black chinos",
+        "category": "Chinos",
+        "category_id": 3,
+        "Price": 2000,
+        "description": "Black chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, beveled side pockets and back vent pockets. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/qCpvzCX/chinos3.webp"
+    },
+    {
+        "id": 4,
+        "product_name": "Rust chinos",
+        "category": "Chinos",
+        "category_id": 3,
+        "Price": 2000,
+        "description": "Rust chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, straight side pockets and one back vent pocket. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/c3JMn5n/chinos4.webp"
+    },
+    {
+        "id": 5,
+        "product_name": "Dark khaki chinos",
+        "category": "Chinos",
+        "category_id": 3,
+        "Price": 2000,
+        "description": "Dark khaki chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, beveled side pockets and back vent pockets with loop and button. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/pXMM40Y/chinos5.webp"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "product_name": "Wine red polo shirt",
+        "category": "Polo Shirts",
+        "category_id": 4,
+        "Price": 2000,
+        "description": "Wine red short-sleeved polo shirt in 100% pima cotton. A relaxed yet dressy look with its shirt collar and a slit hem. Made to your measurements.",
+        "Image": "https://i.ibb.co/Wk4s3Bm/polo1.webp"
+    },
+    {
+        "id": 2,
+        "product_name": "Dark brown polo shirt",
+        "category": "Polo Shirts",
+        "category_id": 4,
+        "Price": 2000,
+        "description": "Dark brown short-sleeved polo shirt in 100% pima cotton. A relaxed yet dressy look with its shirt collar and a slit hem. Made to your measurements.",
+        "Image": "https://i.ibb.co/Fm7LbsL/polo2.webp"
+    },
+    {
+        "id": 3,
+        "product_name": "Navy melange polo shirt",
+        "category": "Polo Shirts",
+        "category_id": 4,
+        "Price": 2000,
+        "description": "Navy melange short-sleeved polo shirt in 100% pima cotton. This polo will give an incredibly soft feeling with a modern look. Dress down with a pair of chinos or up with a blazer for the ultimate stylish look. Made to your measurements.",
+        "Image": "https://i.ibb.co/YDqzfkn/polo3.webp"
+    },
+    {
+        "id": 4,
+        "product_name": "White polo shirt",
+        "category": "Polo Shirts",
+        "category_id": 4,
+        "Price": 2000,
+        "description": "Classic white short-sleeved polo shirt in 100% pima cotton. A relaxed yet dressy look with its shirt collar, chest pocket and a dovetail bottom cut. Made to your measurements.",
+        "Image": "https://i.ibb.co/Rg8FcFV/polo4.webp"
+    },
+    {
+        "id": 5,
+        "product_name": "Sky blue polo shirt",
+        "category": "Polo Shirts",
+        "category_id": 4,
+        "Price": 2000,
+        "description": "Sky blue short-sleeved polo shirt in 100% pima cotton. A relaxed yet dressy look with its shirt collar, chest pocket and a dovetail bottom cut. Made to your measurements.",
+        "Image": "https://i.ibb.co/d2wqpg9/polo5.webp"
+    }
+]
